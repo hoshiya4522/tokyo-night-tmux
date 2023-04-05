@@ -33,6 +33,10 @@ set -g @plugin 'hoshiya4522/tokyo-night-tmux'
 ```
 That's it! Enjoy!
 
+## More Screenshots
+
+![Screenshot](https://raw.githubusercontent.com/hoshiya4522/tokyo-night-tmux/master/.assets/gallery.png)
+
 ## Inspirations
 
 * [Minimal OneDark theme by sei40kr for tmux](https://github.com/sei40kr/tmux-onedark)
