@@ -8,7 +8,8 @@ Tokyo Night theme for TMUX.
 
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Inspirations](#Inspirations)
+- [More Screenshots](#more-screenshots)
+- [Inspirations](#inspirations)
 
 
 ## Requirements
