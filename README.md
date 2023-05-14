@@ -17,11 +17,11 @@ Tokyo Night theme for TMUX.
 * [Any nerdfont for the arrows](https://www.nerdfonts.com)
 * [Tmux Package Manager aka TPM (The installation guide below uses this)](https://github.com/tmux-plugins/tpm)
 * [tmux-plugins/tmux-prefix-highlight (another plugin which can be installed with tpm)](https://github.com/tmux-plugins/tmux-prefix-highlight)
-* [Nord theme for your teminal emulator (Optional)](https://www.nordtheme.com/ports)
+* [Tokyo Night theme for your teminal emulator (Optional)](https://github.com/folke/tokyonight.nvim/tree/main/extras)
 
 ## Installation
 
-NOTE: The installation guide assumes you have installed [tpm](https://github.com/tmux-plugins/tpm), [tmux-plugins/tmux-prefix-highlight (another plugin which can be installed with tpm)](https://github.com/tmux-plugins/tmux-prefix-highlight) and other requirements installed.
+NOTE: The installation guide assumes you have [tpm](https://github.com/tmux-plugins/tpm), [tmux-plugins/tmux-prefix-highlight (another plugin which can be installed with tpm)](https://github.com/tmux-plugins/tmux-prefix-highlight) and other requirements installed.
 
 
 1. Add `set -g @plugin 'hoshiya4522/tokyo-night-tmux'` to your `tmux.conf`, by default `.tmux.conf` located in your home directory.
