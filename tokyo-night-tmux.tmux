@@ -4,10 +4,12 @@
 blue0="#32344a"
 blue1="#394b70"
 blue2="#7aa2f7"
-blue3="#c0caf5"
 blue4="#89ddff"
 blue5="#b4f9f8"
 red="#f7768e"
+white1="#9699a8"
+white2="#c0caf5"
+
 
 # Specific
 statusBg="${blue0}"
@@ -16,7 +18,7 @@ selectionBg="${blue1}"
 selectionFg="default, reverse"
 
 messageBg="${blue0}"
-messageFg="${blue3}"
+messageFg="${white2}"
 
 leftBg="${blue2}"
 leftFg="${blue0}"
@@ -25,12 +27,12 @@ activeWinBg="${blue2}"
 activeWinFg="${blue0}"
 
 inactiveWinBg="${blue0}"
-inactiveWinFg="${blue3}"
+inactiveWinFg="${white2}"
 
 rightBg="${blue2}"
 rightFg="${blue0}"
 
-paneBorder="${blue1}"
+paneBorder="${white1}"
 paneBorderActive="${blue2}"
 
 clockColor="${blue2}"
