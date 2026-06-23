@@ -39,6 +39,7 @@ tmux set-option -g status-style "bg=${statusBg}"
 # ----- Active Window -----
 tmux set-window-option -g window-status-current-style "bg=${activeWinBg},fg=${activeWinFg}"
 tmux set-window-option -g window-status-current-format "#[bold]#[fg=${activeWinBg}, bg=${statusBg}]#[fg=${activeWinFg}, bg=${activeWinBg}]#I:#W#[fg=${activeWinBg}, bg=${statusBg}]"
+tmux set-window-option -g window-status-current-format "#[bold]#[fg=${activeWinBg}, bg=${statusBg}]#[fg=${activeWinFg}, bg=${activeWinBg}]#I:#W#{?window_zoomed_flag, 󱡴 ,}#[fg=${activeWinBg}, bg=${statusBg}]"
 
 # ----- Inactive Windows -----
 tmux set-window-option -g window-status-style "bg=${inactiveWinBg}"
