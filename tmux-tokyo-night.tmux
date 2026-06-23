@@ -10,11 +10,10 @@ blue3="#c0caf5"
 statusBg="${blue0}"
 
 selectionBg="${blue1}"
-selectionFg="${blue3}"
+selectionFg="default, reverse"
 
 messageBg="${blue0}"
 messageFg="${blue3}"
-
 
 leftBg="${blue2}"
 leftFg="${blue0}"
