@@ -7,7 +7,7 @@ blue2="#7aa2f7"
 blue3="#c0caf5"
 blue4="#89ddff"
 blue5="#b4f9f8"
-red="#ff0000"
+red="#f7768e"
 
 # Specific
 statusBg="${blue0}"
@@ -36,6 +36,8 @@ paneBorderActive="${blue2}"
 clockColor="${blue2}"
 clockStyle="12"
 
+paneNumColor="${blue2}"
+paneNumActive="${red}"
 
 # ----- Messages & Modes -----
 tmux set-option -g mode-style "bg=${selectionBg}, fg=${selectionFg}"
@@ -70,3 +72,7 @@ tmux set-option -g pane-border-style "fg=${paneBorder}"
 # ----- Clock -----
 tmux set-window-option -g clock-mode-colour "${clockColor}"
 tmux set-window-option -g clock-mode-style "${clockStyle}"
+
+# ----- Pane Numbers -----
+tmux set-option -g display-panes-colour "${paneNumColor}"
+tmux set-option -g display-panes-active-colour "${paneNumActive}"
