@@ -33,6 +33,9 @@ rightFg="${blue0}"
 paneBorder="${blue1}"
 paneBorderActive="${blue2}"
 
+clockColor="${blue2}"
+clockStyle="12"
+
 
 # ----- Messages & Modes -----
 tmux set-option -g mode-style "bg=${selectionBg}, fg=${selectionFg}"
@@ -63,3 +66,7 @@ tmux set-option -g status-right "#[fg=${rightBg}, bg=${statusBg}] #[fg=${righ
 # ----- Borders -----
 tmux set-option -g pane-active-border-style "fg=${paneBorderActive}"
 tmux set-option -g pane-border-style "fg=${paneBorder}"
+
+# ----- Clock -----
+tmux set-window-option -g clock-mode-colour "${clockColor}"
+tmux set-window-option -g clock-mode-style "${clockStyle}"
