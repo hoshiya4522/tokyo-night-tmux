@@ -41,6 +41,9 @@ clockStyle="12"
 paneNumColor="${blue2}"
 paneNumActive="${red}"
 
+treeModeLineFg="${blue0}"
+treeModeLineBg="${blue2}"
+
 # ----- Messages & Modes -----
 tmux set-option -g mode-style "bg=${selectionBg}, fg=${selectionFg}"
 tmux set-option -g message-style "bg=${messageBg}, fg=${messageFg}"
@@ -78,3 +81,7 @@ tmux set-window-option -g clock-mode-style "${clockStyle}"
 # ----- Pane Numbers -----
 tmux set-option -g display-panes-colour "${paneNumColor}"
 tmux set-option -g display-panes-active-colour "${paneNumActive}"
+
+
+# ----- Tree Mode -----
+tmux set-window-option -g mode-style "bg=${treeModeLineBg}, fg=${treeModeLineFg}"
