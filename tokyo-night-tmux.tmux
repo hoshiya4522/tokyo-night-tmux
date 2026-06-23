@@ -5,6 +5,9 @@ blue0="#32344a"
 blue1="#394b70"
 blue2="#7aa2f7"
 blue3="#c0caf5"
+blue4="#89ddff"
+blue5="#b4f9f8"
+red="#ff0000"
 
 # Specific
 statusBg="${blue0}"
@@ -26,6 +29,9 @@ inactiveWinFg="${blue3}"
 
 rightBg="${blue2}"
 rightFg="${blue0}"
+
+paneBorder="${blue1}"
+paneBorderActive="${blue2}"
 
 
 # ----- Messages & Modes -----
@@ -53,3 +59,7 @@ tmux set-option -g status-left " #S #[fg=${leftBg}, bg=${statusBg}]"
 # ----- Right -----
 tmux set-option -g status-right-style "bg=${statusBg},fg=${rightBg}"
 tmux set-option -g status-right "#[fg=${rightBg}, bg=${statusBg}] #[fg=${rightFg}, bg=${rightBg}] %d/%m  %R "
+
+# ----- Borders -----
+tmux set-option -g pane-active-border-style "fg=${paneBorderActive}"
+tmux set-option -g pane-border-style "fg=${paneBorder}"
